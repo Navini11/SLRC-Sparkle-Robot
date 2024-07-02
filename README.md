@@ -4,7 +4,7 @@
 The Sri Lankan Robotics Challenge (SLRC) is a distinguished event hosted by the Department of Electronic and Telecommunication Engineering at the University of Moratuwa. The competition is divided into two segments: the School Category and the University Category.
 
 ## The Team
-We are a group of five enthusiastic undergraduates from the Department of Electronic and Telecommunication Engineering at the University of Moratuwa, collectively known as "We are Groot." Our team members include:
+We are a group of five enthusiastic undergraduates from the Department of Electronic and Telecommunication Engineering at the University of Moratuwa, collectively known as "Sparkle." Our team members include:
 
 - Pulindu Vidmal
 - Akhila Prabodha
