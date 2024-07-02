@@ -17,7 +17,7 @@ Our team secured a commendable top 15 rank in the university category and reache
 ## Our Task
 Our project was inspired by the theme of infinity stones from the Avengers movie series. For a detailed explanation of our tasks, please refer to the attached PDF document.
 
-[Download Task PDF](./SLRC-2024-University-Category-v1_3.pdf)
+[Download Task PDF]([./SLRC-2024-University-Category-v1_3.pdf](https://ent.uom.lk/wp-content/uploads/2024/01/SLRC-2024-University-Category-v1.pdf))
 
 ## Project Challenges
 Our tasks were segmented into three thematic regions, each inspired by different celestial settings:
