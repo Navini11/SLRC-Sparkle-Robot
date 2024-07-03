@@ -30,49 +30,27 @@ Our tasks were segmented into three thematic regions, each inspired by different
 
 ### Line Following
 
-We employed an IR array paired with a PID controller to ensure precise tracking of the line. The IR sensors detect the contrast between the white line and the black surface, allowing the PID controller to adjust the robot's trajectory dynamically.
-
-**Technologies Used:**
-- **IR Sensors:** Detect the contrast between the white line and black surface.
-- **PID Controller:** Adjusts the robot's path dynamically based on sensor input.
+We implemented an IR array combined with a PID controller to ensure accurate line tracking. The IR sensors detect the contrast between the white line and the black surface, allowing the PID controller to make real-time adjustments to the robot's path.
 
 ### Wall Color Detection
 
-We used OpenCV with computer vision from a web camera to identify wall colors. This setup helps maintain a consistent distance from the walls while detecting required colors for navigation.
-
-**Technologies Used:**
-- **OpenCV:** Processes images to detect wall colors.
-- **Web Camera:** Captures real-time images for processing.
+Using OpenCV and computer vision with a web camera, we identified wall colors. This system helps maintain a consistent distance from the walls while detecting necessary colors for navigation.
 
 ### Color Junction Detection
 
-We strategically placed under-mounted color sensors to detect color junctions effectively. These sensors are fine-tuned to recognize specific color configurations at junctions, guiding the robot to navigate turns accurately.
-
-**Technologies Used:**
-- **Color Sensors:** Detect specific color configurations at junctions.
+Strategically placed under-mounted color sensors were used to detect color junctions. These sensors are calibrated to recognize specific color patterns at junctions, guiding the robot through turns accurately.
 
 ### 3D Object Detection
 
-We used TensorFlow and OpenCV to identify the shape of objects, determining whether an object is a cylinder or a cube. This combination of technologies provides robust shape recognition capabilities.
-
-**Technologies Used:**
-- **TensorFlow:** Machine learning framework for object detection.
-- **OpenCV:** Processes images to identify object shapes.
+We utilized TensorFlow and OpenCV to identify object shapes, distinguishing between cylinders and cubes. This technology combination provides robust shape recognition capabilities.
 
 ### Metal Box Detection and Grabbing
 
-We integrated conductivity testing to identify metal boxes and designed a robotic arm for precise grabbing. The conductivity sensor differentiates between metal and non-metal boxes, while the robotic arm handles the pickup and placement tasks efficiently.
-
-**Technologies Used:**
-- **Conductivity Sensor:** Differentiates between metal and non-metal boxes.
-- **Robotic Arm:** Handles the precise grabbing and placement of boxes.
+Conductivity testing was employed to identify metal boxes, and a robotic arm was designed for precise grabbing. The conductivity sensor differentiates between metal and non-metal boxes, while the robotic arm handles pickup and placement tasks efficiently.
 
 ### Obstacle Height Detection
 
-Three ToF (Time-of-Flight) sensors were utilized to measure the heights of obstacles accurately. This data helps the robot calculate the total number of gems collected based on obstacle heights.
-
-**Technologies Used:**
-- **ToF Sensors:** Measure the height of obstacles accurately.
+Three ToF sensors were used to measure obstacle heights accurately. This data helps the robot calculate the total number of gems collected based on obstacle heights.
 
 ### Execution Methodology
 Each challenge was tackled using sophisticated sensors and control algorithms:
