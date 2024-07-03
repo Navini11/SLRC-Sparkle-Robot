@@ -26,28 +26,53 @@ Our tasks were segmented into three thematic regions, each inspired by different
 2. **Planet B - Ruins of Sakaar**
 3. **Planet C - Thanos’s Home**
 
-### Task Breakdown
+## Task Breakdown
 
-#### Line Following
+### Line Following
+
 We employed an IR array paired with a PID controller to ensure precise tracking of the line. The IR sensors detect the contrast between the white line and the black surface, allowing the PID controller to adjust the robot's trajectory dynamically.
 
-#### Wall Color Detection
+**Technologies Used:**
+- **IR Sensors:** Detect the contrast between the white line and black surface.
+- **PID Controller:** Adjusts the robot's path dynamically based on sensor input.
+
+### Wall Color Detection
+
 We used OpenCV with computer vision from a web camera to identify wall colors. This setup helps maintain a consistent distance from the walls while detecting required colors for navigation.
 
-#### Color Junction Detection
+**Technologies Used:**
+- **OpenCV:** Processes images to detect wall colors.
+- **Web Camera:** Captures real-time images for processing.
+
+### Color Junction Detection
+
 We strategically placed under-mounted color sensors to detect color junctions effectively. These sensors are fine-tuned to recognize specific color configurations at junctions, guiding the robot to navigate turns accurately.
 
-#### 3D Object Detection
+**Technologies Used:**
+- **Color Sensors:** Detect specific color configurations at junctions.
+
+### 3D Object Detection
+
 We used TensorFlow and OpenCV to identify the shape of objects, determining whether an object is a cylinder or a cube. This combination of technologies provides robust shape recognition capabilities.
 
-#### Metal Box Detection and Grabbing
+**Technologies Used:**
+- **TensorFlow:** Machine learning framework for object detection.
+- **OpenCV:** Processes images to identify object shapes.
+
+### Metal Box Detection and Grabbing
+
 We integrated conductivity testing to identify metal boxes and designed a robotic arm for precise grabbing. The conductivity sensor differentiates between metal and non-metal boxes, while the robotic arm handles the pickup and placement tasks efficiently.
 
-#### Wall Following
-A combination of front and side-mounted ultrasonic sensors was used for robust wall following. These sensors continuously monitor the distances to walls, ensuring smooth navigation without collisions.
+**Technologies Used:**
+- **Conductivity Sensor:** Differentiates between metal and non-metal boxes.
+- **Robotic Arm:** Handles the precise grabbing and placement of boxes.
 
-#### Obstacle Height Detection
-3 ToF sensors were utilized to measure the heights of obstacles accurately. This data helps the robot calculate the total number of gems collected based on obstacle heights.
+### Obstacle Height Detection
+
+Three ToF (Time-of-Flight) sensors were utilized to measure the heights of obstacles accurately. This data helps the robot calculate the total number of gems collected based on obstacle heights.
+
+**Technologies Used:**
+- **ToF Sensors:** Measure the height of obstacles accurately.
 
 ### Execution Methodology
 Each challenge was tackled using sophisticated sensors and control algorithms:
@@ -57,5 +82,4 @@ Each challenge was tackled using sophisticated sensors and control algorithms:
 - **Color Junction Detection:** Implemented under-mounted color sensors for precise junction recognition.
 - **3D Object Detection:** Used TensorFlow and OpenCV to identify shapes, distinguishing between cylinders and cubes.
 - **Metal Box Detection and Grabbing:** Conductivity testing and robotic arm for efficient handling.
-- **Wall Following:** Front and side-mounted ultrasonic sensors for continuous distance monitoring.
 - **Obstacle Height Detection:** ToF and ultrasonic sensors for precise height measurement.
